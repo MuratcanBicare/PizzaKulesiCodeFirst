@@ -37,12 +37,6 @@ namespace PizzaKulesi2
             this.btnSil = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.dgvSiparis = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEkstraMalzeme = new System.Windows.Forms.Button();
             this.btnPizzaCesidi = new System.Windows.Forms.Button();
             this.chkTeslimEdileleriGizle = new System.Windows.Forms.CheckBox();
@@ -61,6 +55,12 @@ namespace PizzaKulesi2
             this.btnIptal = new System.Windows.Forms.Button();
             this.btnMusteriDuzenle = new System.Windows.Forms.Button();
             this.btnMusteriSil = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSiparis)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,48 +121,6 @@ namespace PizzaKulesi2
             this.dgvSiparis.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvSiparis.Size = new System.Drawing.Size(562, 410);
             this.dgvSiparis.TabIndex = 33;
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "Id";
-            this.Column1.HeaderText = "Id";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "Musteri";
-            this.Column2.HeaderText = "AdSoyad";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "Pizza";
-            this.Column3.HeaderText = "Pizza";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "VirgulluMalzeme";
-            this.Column4.HeaderText = "EkstraMalzemeler";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.DataPropertyName = "TeslimDurumu";
-            this.Column5.HeaderText = "TeslimDurumu";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.DataPropertyName = "AdresiYaz";
-            this.Column6.HeaderText = "Adres";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
             // 
             // btnEkstraMalzeme
             // 
@@ -359,6 +317,48 @@ namespace PizzaKulesi2
             this.btnMusteriSil.UseVisualStyleBackColor = true;
             this.btnMusteriSil.Click += new System.EventHandler(this.btnMusteriSil_Click_1);
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Id";
+            this.Column1.HeaderText = "Id";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "Musteri";
+            this.Column2.HeaderText = "AdSoyad";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "Pizza";
+            this.Column3.HeaderText = "Pizza";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "VirgulluMalzeme";
+            this.Column4.HeaderText = "EkstraMalzemeler";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "TeslimDurumu";
+            this.Column5.HeaderText = "TeslimDurumu";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.DataPropertyName = "AdresiYaz";
+            this.Column6.HeaderText = "Adres";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
@@ -418,15 +418,15 @@ namespace PizzaKulesi2
         private System.Windows.Forms.ComboBox cboMusteri;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnMusteriEkle;
+        private System.Windows.Forms.Button btnIptal;
+        private System.Windows.Forms.Button btnMusteriDuzenle;
+        private System.Windows.Forms.Button btnMusteriSil;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.Button btnIptal;
-        private System.Windows.Forms.Button btnMusteriDuzenle;
-        private System.Windows.Forms.Button btnMusteriSil;
     }
 }
 
