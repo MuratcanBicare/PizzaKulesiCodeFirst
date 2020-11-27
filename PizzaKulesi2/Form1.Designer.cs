@@ -264,6 +264,7 @@ namespace PizzaKulesi2
             // 
             // clbMalzeme
             // 
+            this.clbMalzeme.CheckOnClick = true;
             this.clbMalzeme.FormattingEnabled = true;
             this.clbMalzeme.Location = new System.Drawing.Point(12, 126);
             this.clbMalzeme.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -389,6 +390,7 @@ namespace PizzaKulesi2
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(951, 710);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Sipariş Takip";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSiparis)).EndInit();
             this.ResumeLayout(false);

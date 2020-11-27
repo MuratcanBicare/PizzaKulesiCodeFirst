@@ -206,6 +206,7 @@ namespace PizzaKulesi2
             this.Controls.Add(this.txtCesit);
             this.MinimumSize = new System.Drawing.Size(914, 522);
             this.Name = "DuzenleForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "DuzenleForm";
             this.ResumeLayout(false);
             this.PerformLayout();
