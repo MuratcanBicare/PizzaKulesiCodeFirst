@@ -67,7 +67,7 @@ namespace PizzaKulesi2
             // btnDuzenle
             // 
             this.btnDuzenle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDuzenle.Location = new System.Drawing.Point(637, 503);
+            this.btnDuzenle.Location = new System.Drawing.Point(637, 498);
             this.btnDuzenle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDuzenle.Name = "btnDuzenle";
             this.btnDuzenle.Size = new System.Drawing.Size(258, 87);
